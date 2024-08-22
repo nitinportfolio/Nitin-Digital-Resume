@@ -78,7 +78,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
 # ---- EXPERIENCE & QUALIFICATIONS ----
-st.subheader("About Me")
+#st.subheader("About Me")
 
 
 # st.write(f"temprature: :blue[{temperature}]")
@@ -95,7 +95,7 @@ Over time, I have conceptualized and executed **algorithmic trading strategies u
 
 I bring forth over **19 years of diverse and extensive experience spanning the breadth of the IT domain**, coupled with a dedicated focus of over 8 years specifically within the realm of Data Science and Machine Learning technology stack. Throughout my career journey, I have honed a robust skill set encompassing various facets of IT, including **software development, project management, and strategic planning**, while concurrently immersing myself in the cutting-edge innovations of Data Science and Machine Learning.""")
 st.write("#")
-st.subheader("Work Experience")
+st.markdown("#### **Work Experience**")
 
 st.write("**Xilytica**  \nData Science Freelance Consultant & Trainer  \nFeb 2014 - Present")
 #st.write("######")
@@ -106,7 +106,7 @@ st.write("**3i INFOTECH Ltd., Chennai**  \nSoftware Engineer  \nJan 2005 – Feb
 
 st.write('#####')
 
-st.subheader("Career Summary")
+st.markdown("#### **Career Summary**")
 st.write("""
 - 5+ Years as a Data Science, Machine Learning & Deep Learning Trainer, providing training & consulting solutions to Companies, Colleges & Individuals.
 - 7+ Years of Entrepreneur/Start-Up experience that involved building Training Platforms, Business Development, Sales & Marketing.
@@ -114,7 +114,7 @@ st.write("""
 - 2 + Years of experience in handling & managing IT projects as a project manager.
 """)
 
-st.subheader("Management Competencies")
+st.markdown("#### **Management Competencies**")
 st.write("""
 - Understand & map client’s requirements & enhancements to the product and provide technical solutions.
 - Maintaining MIS for all phases and reporting project progress to the client & management.
@@ -124,7 +124,7 @@ st.write("""
 - Providing pre-sales technical/estimation support to the business development team.
 """)
 
-st.subheader("Core Skills")
+st.markdown("#### **Core Skills**")
 st.markdown("<h5>Data Science & Machine Learning Tools</h5>",unsafe_allow_html=True)
 st.markdown("""
 - Python
@@ -156,8 +156,83 @@ st.write("""
 - CNN - Convolutional Neural Network 
 - RNN - Recurrent Neural Network
 """)
+st.markdown("""
+##### **Financial Analysis & Equity Market**
+- Algorithmic Trading
+- Fundamental Analysis
+- Technical Analysis
+- Financial Modeling
+- Market Data Analysis
+- Portfolio Optimization
+- Backtesting Algo Trading Strategies
+- Trading Platform - Kite API/ Angelone API
+""")
+
+st.markdown("""
+#### **Entrepreneurial Journey**
+- I’ve single-handedly built my training and consulting platforms, Skill Venue and Xilytica,from the ground up. Idea was to built an online learning & mentoring platform to bringtrainers, mentors & college students/ working professionals to it. So that trainers, mentorscan provide their respective services to colleges & individuals. But due to unforeseencircumstances, had to pivot the platform to providing Data Science & Machine LearningTraining & Consulting platform.
+- While delivering tangible outcomes for my clients, I was also involved in actively developing business leads and onboarding trainers & mentors for my clients.
+- I’ve also dipped my toes into digital marketing, content strategy, and running digital advertising, generating leads over various social platforms for my companies.
+- Lastly, recruiting, and grooming talent has been a pleasant outcome of my entrepreneurial venture as I have got to be part of several people’s career journeys.
+- Since last few years, I have trained & mentored many college students & working professionals in Data Science & Machine learning.
+- I have been undertaking Data Science & AI projects to companies & start-ups in India & US.
+""")
+
+st.markdown("----------------------------------")
+st.markdown("""
+#### **Corporate Journey**
+""")
+st.markdown(
+    """
+##### **Wipro Technologies**\n
+###### *Lead/ Manager*\n
+**ANZ Bank - Migrating Bank's Servers & Software to Latest Version**
+
+- Managing a team of 15+ members.
+- Determine overall project plan, structure, schedule, and staffing requirements.
+- Actively participated in a weekly status meeting with the client, discussing project status and bottlenecks.
+- Tracking work progress, conducting daily stand-up calls to get the daily status, andunderstanding bottlenecks or risks if any.
+- Coordinating with offshore team, ensuring on-time deliverables.
+- Delegating work to the team members based on the skills and keeping management informed on deliverables and raising red flags whenever saw any risk.
+- Involved in other management activities such as – Resource Management: resource planning and loading, project planning, working on cost estimation sheet, work allocation,reporting internal and external project performance on a periodic basis, and other activitiesusing Wipro-specific tools and matrix.\n
+
+**CITI Bank - Operational Risk Management**
+
+- Leading a team of 8 + members.
+- Involved in requirement gathering, analysis, and feasibility.
+- Involved in data analysis, database design, and developing and tuning critical PL/SQL objects.
+- Technical discussion with the clients on technical design and taking inputs.
+- Effective Monitoring, requirement, and work progress tracking.
+- Involved in code review, design, test scenarios & Unit test cases.
+- Working with the various streams, Project documentation, Integrated Change Control;communication with the stakeholders, and handling escalations.
+
+##### **ACS - A Xerox Company**
+###### *Sr. Tech Lead*
 
 
+**Michlen & Office Depot
+DIGITAL FUEL - Implementation Digital Fuel BI tool**
+
+- Build & trained the technical & functional team of 10+ members
+- Implemented Digital Fuel Service Flow BI Reporting tool for different clients.
+- Helping and guiding team members on the technical front whenever required.
+- Daily status call with the client and stakeholders on status and bottlenecks.
+- Determine overall project plan, structure, schedule, and staffing requirements.
+- Ensuring target realizations and bulge ratios, Implementing service improvement plans,giving leads to senior management.
+- Performed capacity planning and was responsible for project prioritization by providing information about the resource availability to business managers, project sponsors &clients.
+
+##### **3i Infotech, India/ US**
+###### *Software Engineer*
+**PSCM, John Snow Inc - Oracle BI Reports, Database**
+
+- Involved in requirement gathering & delivery for different Discoverer BI reports.
+- Coordinating with the offshore team for delegation, requirement clarifications, and on-time delivery of project modules.
+- Testing deliverables to make sure development is bugs-free and aligned with the client’s requirements.
+- Involved in Database design, developing PL/SQL objects, and creating different Oracle BI reports.
+- Created new database PL/SQL objects such as packages, procedures, and triggers and also customized existing objects.
+- Responsible for testing the development patches before applying to the UAT or production environment and also responsible for on-time teams deliverables.
+    """
+)
 
 # ---- CONTACT ----
 with st.container():
