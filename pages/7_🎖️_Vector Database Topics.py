@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.title("Vector Database Topics")
 st.markdown("""Vector databases are crucial for applications involving similarity search, recommendation systems, and natural language processing  Here are the key topics to delve into:
 
 ### 1.  **Introduction to Vector Databases**

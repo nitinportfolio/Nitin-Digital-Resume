@@ -22,7 +22,7 @@ img_olympics = current_dir/"assets"/"olympics.png"
 PAGE_TITLE = "Digital Resume | Nitin Monga"
 PAGE_ICON = ":wave"
 NAME = "Nitin Monga"
-DESCRIPTION = " Senior Data Scientist "
+DESCRIPTION = " Senior Data Scientist/ AI Consultant "
 #EMAIL = "nitinmonga@gmail.com"
 CONTACT = "+91 7022945888"
 EMAIL = "nitinmonga@gmail.com"
@@ -79,7 +79,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # ---- EXPERIENCE & QUALIFICATIONS ----
 st.subheader("About Me")
-temperature = "-10"
+
 
 # st.write(f"temprature: :blue[{temperature}]")
 # st.write("**bold** not bold")
@@ -157,41 +157,7 @@ st.write("""
 - RNN - Recurrent Neural Network
 """)
 
-        #---- PROJECTS ----#
-with st.container():
 
-    st.write("---")
-    st.header("My Data Science Projects")
-    st.write("##")
-    image_column, text_column = st.columns([1,2])
-    with image_column:
-        st.image(img_recommendation)
-    with text_column:
-        st.subheader(" Movie Recommender System")
-        st.write(
-            """
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            """
-        )
-        st.markdown("[Watch GitHub Repo](https://github.com/nitinportfolio/gitportfolio.git)")
-
-    st.write("#")
-    st.write("#")
-    st.write("##")
-
-with st.container():
-
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_olympics)
-    with text_column:
-        st.subheader("Olympics Analysis")
-        st.write(
-            """
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            """
-        )
-        st.markdown("[Watch GitHub Repo](https://github.com/nitinportfolio/gitportfolio.git)")
 
 # ---- CONTACT ----
 with st.container():
